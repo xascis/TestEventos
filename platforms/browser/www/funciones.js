@@ -5,7 +5,8 @@ function muestraEvento(mEvento){
         evento ="Carnaval";
         wiki="El carnaval es una celebración que tiene lugar inmediatamente antes del inicio de la cuaresma cristiana, que se inicia a su vez con el Miércoles de Ceniza, que tiene fecha variable (entre febrero y marzo según el año). El carnaval combina algunos elementos como disfraces, desfiles, y fiestas en la calle.";
         break;
-        case "fallas":evento="Fallas";
+        case "fallas":
+        evento="Fallas";
         wiki = "Las Fallas (Falles en valenciano) son unas fiestas que van del 15 al 19 de marzo con una tradición arraigada en la ciudad de Valencia y diferentes poblaciones de la Comunidad Valenciana. Oficialmente empiezan el último domingo de febrero con el acto de la Crida.";
         break;
         case "nochevieja":
