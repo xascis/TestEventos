@@ -22,13 +22,11 @@
         <div data-role="header">
             <a href="#" data-icon="back" onClick="volver();">Volver</a>
             <h1 id="evento"></h1>
-            <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right">
-                <a id="infoButton" href="#" data-role="button" data-icon="info" onClick="">+ Info</a>
-                <a href="#pagina2" data-role="button" data-icon="info" data-transition="popup">Acerca de</a>
-            </div>
+            <a href="#pagina2" data-role="button" data-icon="info" data-transition="popup">Acerca de</a>
         </div>
         <div data-role="content">
             <p id="wiki"></p>
+            <a id="infoButton" href="#" data-role="button" data-icon="info" onClick="">+ Info</a>
         </div>
         <div data-role="footer" data-position="fixed">
             <h1>DEU UPV</h1>
@@ -42,4 +40,7 @@
         </div>
     </div>
 </body>
+<script>
+    muestraEvento("fallas");
+</script>
 </html>

@@ -43,6 +43,10 @@ function volver(){
 function cargarContenidoURL(urlPage){
     $.ajax({
         url: urlPage + eventoMinuscula,
+        type: 'GET',
+        contentType: "application/json; charset=utf-8",
+        crossDomain: true,
+        dataType: 'jsonp',
         cache: false
     }).done(function(data){
         $("#wiki").html(data);
